@@ -335,7 +335,7 @@ public class JComboBoxLanguage extends JComboBox {
 
 	}
 
-	private JGuiLanguage getLanguage() {
+	public JGuiLanguage getLanguage() {
 
 		return lista.get(getSelectedIndex());
 
